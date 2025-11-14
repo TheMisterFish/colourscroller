@@ -1,15 +1,69 @@
-special thanks to Sergent_Patate for concept of this mod, you can find him on yt:
+# Colourscroller
 
-(English Channel)
+A Fabric mod that makes cycling through related items fast and intuitive. Use configurable keys to scroll a single selected item through its color/type variants or to scroll your entire hotbar so all matching item types change together.
 
-https://www.youtube.com/@Potatocrap_TMC
+## Goal
 
-(French Channel)
+Enable quick in-game cycling of item colours and related variants. Scroll a single held item through its variant sequence, or synchronize an entire hotbar row so all items of the same family update to the same variant.
 
-https://www.youtube.com/@Sergent_Patate_TMC
+## Required library
+
+**This mod required MaliLib to function**
+
+You can find the MaliLib library [on modrinth](https://modrinth.com/mod/malilib).
+## Features
+
+* Scroll a single selected item through its colour or variant chain while preserving NBT and stack size.
+* Scroll an entire hotbar row so every item that belongs to the same family (wool, stained glass, concrete, walls/slabs/stairs, etc.) updates to match the currently selected variant.
+* Works across different block families and combinations of block types.
+* Fully configurable key bindings and behavior.
+
+## How to Use
+
+* Bind keys in your controls for: Base Key, Scroll Row, Scroll Single.
+* To scroll, hold the Base Key then press the Scroll Row key or the Scroll Single key while using the mouse wheel or keyboard scroll input to move to the next variant.
+* If Base Key is unbound, it is optional and you can use Scroll Row or Scroll Single alone.
+* Scroll Single: cycles only the selected item (keeps NBT and count). Example: white wool -> light gray wool -> gray wool.
+* Scroll Row: finds all items in your hotbar that share the same family as the selected item and sets them to the same variant you scrolled to. Example: selected white concrete; stained glass, wool, and powdered concrete in the hotbar will also change to the corresponding shade.
+
+## Default Key Bindings
+
+* Base Key: Left Ctrl + Left (default)
+* Scroll Row: C (default)
+* Scroll Single: X (default)
+
+## Examples
+
+* Hold Base Key + X and scroll while holding white wool to cycle only that stack through wool colours; the stack count and NBT stay the same.
+* Hold Base Key + C and scroll while selecting white concrete; your hotbar’s stained glass, wool, and powdered concrete become the same shade.
+
+## Reporting Issues
+
+If you find a bug or want a feature, open an issue on the project GitHub with:
+* A clear description of the problem.
+* Steps to reproduce.
+* Your Colourscroller config file.
+* Relevant mod list and Minecraft/Fabric versions.
+
+## Screenshot
+
+## License
+
+Licensed under the MIT License — see LICENSE for details.
+
+## Special thanks
+
+special thanks to Sergent_Patate for concept of this mod, you can find him on YouTube:
+
+* [English channel](https://www.youtube.com/@Potatocrap_TMC)
+* [French channel](https://www.youtube.com/@Sergent_Patate_TMC)
 
 and this is his demo video:
 
 (note : this demo is done with the first version of the mod, so the features added later aren't there yet)
 
-https://www.youtube.com/watch?v=cycILVtPPE0&t=84s
+[demo video](https://www.youtube.com/watch?v=cycILVtPPE0&t=84s)
+
+### Original project
+
+[colourscroller by Anware-Canella](https://github.com/Anware-Canella/colourscroller)

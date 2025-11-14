@@ -213,5 +213,18 @@ public class WoodScrollables {
                 Items.STRIPPED_CRIMSON_HYPHAE,
                 Items.STRIPPED_WARPED_HYPHAE
         );
+
+        addSet("wood",
+                Items.OAK_PRESSURE_PLATE,
+                Items.SPRUCE_PRESSURE_PLATE,
+                Items.BIRCH_PRESSURE_PLATE,
+                Items.JUNGLE_PRESSURE_PLATE,
+                Items.ACACIA_PRESSURE_PLATE,
+                Items.CHERRY_PRESSURE_PLATE,
+                Items.DARK_OAK_PRESSURE_PLATE,
+                Items.PALE_OAK_PRESSURE_PLATE,
+                Items.CRIMSON_PRESSURE_PLATE,
+                Items.WARPED_PRESSURE_PLATE
+        );
     }
 }
